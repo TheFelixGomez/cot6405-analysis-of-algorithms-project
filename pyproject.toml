@@ -1,0 +1,9 @@
+[project]
+name = "cot6405-analysis-of-algorithms-project"
+version = "0.1.0"
+description = "Analysis of Algorithms Project for COT6405"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyterlab>=4.4.9",
+    "matplotlib>=3.10.7",
+]
