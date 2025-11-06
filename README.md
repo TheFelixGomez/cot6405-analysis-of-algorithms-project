@@ -2,9 +2,23 @@
 
 This project implements and compares two algorithms for solving the **Closest Pair of Points** problem: a brute-force approach and a divide-and-conquer approach. The analysis demonstrates the performance differences between O(n²) and O(n log n) time complexities.
 
+## Project Demo
+https://youtu.be/f6ZliUxIsMM
+
 ## Problem Description
 
 Given a set of n points in a 2D plane, find the pair of points with the smallest Euclidean distance between them.
+
+The primary objectives of this project are, first, to empirically observe the computational complexities of different algorithms that solve the same problem, and second, to analyze how well theoretical complexity estimates align with actual execution times.
+
+To achieve these analytical goals, this project will implement and contrast two solutions for the Closest Pair of Points Problem. This problem is formally defined as: given a set of n distinct points in a two-dimensional plane (e.g., P1, P2, …, Pn), the objective is to identify and return the indices i and j of the two points (Pi and Pj) that are separated by the smallest Euclidean distance.
+
+The input size, denoted by n, represents the total number of points provided to the algorithms. For the experimental analysis in this project, the performance of the algorithms will be empirically measured across a range of significant input sizes. The experiment will use 10 distinct values for n, starting at n=10,000 and increasing in increments of 5,000 up to a maximum of n=55,000.
+
+The core of the analysis will involve contrasting two algorithms with vastly different theoretical efficiencies. The first is the Brute-Force (ALG1) method, which has a time complexity of (n2). The second is the Divide-and-Conquer (ALG2) strategy, which is expected to be more efficient with a time complexity of (nlog2n). This direct comparison will provide the empirical data needed to observe the real-world performance differences predicted by these theoretical bounds. Through this process, the project aims to demonstrate how theoretical complexity analysis predicts practical performance outcomes.
+
+The Closest Pair of Points Problem is not merely a theoretical exercise; it has numerous practical applications in various fields. For example, in air traffic control, it can be used to identify aircraft that are flying too close to each other, helping to prevent potential collisions. In molecular modeling, this algorithm can help find the two closest atoms in a complex protein structure, which is crucial for understanding molecular interactions. It also serves as a fundamental problem in the broader field of computational geometry. While these applications are significant, this project's primary focus will be on the implementation and empirical performance analysis of the algorithms themselves.
+
 
 ## Algorithms
 
