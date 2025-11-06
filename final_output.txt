@@ -1,0 +1,54 @@
+Running tests for n = 10000...
+Average ALG1 time for n=10000: 5667.384510 milliseconds
+Average ALG2 time for n=10000: 57.699180 milliseconds
+
+Running tests for n = 15000...
+Average ALG1 time for n=15000: 19197.410810 milliseconds
+Average ALG2 time for n=15000: 126.444380 milliseconds
+
+Running tests for n = 20000...
+Average ALG1 time for n=20000: 28442.351950 milliseconds
+Average ALG2 time for n=20000: 141.529740 milliseconds
+
+Running tests for n = 25000...
+Average ALG1 time for n=25000: 73792.791500 milliseconds
+Average ALG2 time for n=25000: 296.472250 milliseconds
+
+Running tests for n = 30000...
+Average ALG1 time for n=30000: 128950.915610 milliseconds
+Average ALG2 time for n=30000: 443.214060 milliseconds
+
+Running tests for n = 35000...
+Average ALG1 time for n=35000: 104296.859680 milliseconds
+Average ALG2 time for n=35000: 300.905030 milliseconds
+
+Running tests for n = 40000...
+Average ALG1 time for n=40000: 103542.354860 milliseconds
+Average ALG2 time for n=40000: 280.911560 milliseconds
+
+Running tests for n = 45000...
+Average ALG1 time for n=45000: 131739.632720 milliseconds
+Average ALG2 time for n=45000: 318.459590 milliseconds
+
+Running tests for n = 50000...
+Average ALG1 time for n=50000: 161953.405440 milliseconds
+Average ALG2 time for n=50000: 353.711520 milliseconds
+
+Running tests for n = 55000...
+Average ALG1 time for n=55000: 200310.498180 milliseconds
+Average ALG2 time for n=55000: 402.055340 milliseconds
+
+
+--- Final Average Runtimes (milliseconds) ---
+n	|	ALG1 (Brute)	|	ALG2 (D&C)
+----------------------------------------------------------------------------------------------------
+10000	|	5667.384510	|	57.699180
+15000	|	19197.410810	|	126.444380
+20000	|	28442.351950	|	141.529740
+25000	|	73792.791500	|	296.472250
+30000	|	128950.915610	|	443.214060
+35000	|	104296.859680	|	300.905030
+40000	|	103542.354860	|	280.911560
+45000	|	131739.632720	|	318.459590
+50000	|	161953.405440	|	353.711520
+55000	|	200310.498180	|	402.055340
